@@ -1,10 +1,4 @@
 @import "./partials/example";
-@import "./partials/color-tokens.scss";
-@import "./partials/color-tokens.scss";
-@import "./partials/unit-tokens.scss";
-@import "./partials/font-tokens.scss";
-@import "./partials/font-tokens.scss";
-@import "./partials/font-tokens.scss";
-@import "./partials/font-tokens.scss";
-
-
+@import "./tokens/color-tokens.scss";
+@import "./tokens/unit-tokens.scss";
+@import "./tokens/font-tokens.scss";

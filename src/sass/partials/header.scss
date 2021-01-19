@@ -1,23 +1,22 @@
 .m-header {
     display: flex;
     align-items: center;
-    background-color: $color-background;
-    box-sizing: border-box;
+    box-sizing: 1px;
+    background-color:whitesmoke ;
     padding: $unit-xs;
-    color: $color-foreground;
-    border-bottom-width: 1px;
+    border-bottom-width: 5px;
     border-bottom-style: solid;
-    border-bottom-color: $color-primary;
+    border-bottom-color: $color-headlines;
   
     .m-header__logo {
       padding: $unit-xs;
       font-weight: bold;
-      color: $color-primary;
-      font-size: $typo-large-size;
+      color: $color-headlines;
+      font-size:55px;
     }
   
     .m-header__navigation {
-      padding: $unit-xs;
+      padding: $unit-s;
       display: none;
   
       ul {
@@ -27,18 +26,18 @@
   
           a {
             transition: all 0.2s;
-            color: $color-foreground;
+            color: $color-keyword;
             text-decoration: none;
   
             &:hover {
-              color: $color-primary;
+              color: $color-keyword;
               text-decoration: underline;
             }
           }
   
           &.active {
             a {
-              color: $color-primary;
+              color: $color-keyword;
               text-decoration: underline;
             }
           }

@@ -1,32 +1,34 @@
 .m-header {
     display: flex;
+    position:relative;
     align-items: center;
-    box-sizing: 1px;
-    background-color:whitesmoke ;
-    padding: $unit-xs;
-    border-bottom-width: 5px;
-    border-bottom-style: solid;
-    border-bottom-color: $color-headlines;
+    
   
     .m-header__logo {
       padding: $unit-xs;
+      text-align:center;
+      left:0;
+      top:0;
       font-weight: bold;
       color: $color-headlines;
       font-size:55px;
+      
     }
   
     .m-header__navigation {
-      padding: $unit-s;
-      display: none;
+      padding: $unit-xs;
+      display:block;
+      text-align:center;
   
       ul {
         li {
-          display: inline-block;
+          display:inline-block;
           margin-right: $unit-xs;
+          
   
           a {
-            transition: all 0.2s;
-            color: $color-keyword;
+            transition: all 0.5s;
+            color: $color-headlines;
             text-decoration: none;
   
             &:hover {

@@ -1,26 +1,30 @@
 .m-header {
-    display: flex;
     position:relative;
+    display: flex;
     align-items: center;
+    padding:$unit-xs;
+    box-sizing: border-box;
     
   
     .m-header__logo {
+      position:absolute;
+      left:0;
       padding: $unit-xs;
       text-align:center;
-      left:0;
-      top:0;
       font-weight: bold;
       color: $color-headlines;
       font-size:55px;
       
     }
-  
+    
     .m-header__navigation {
       padding: $unit-xs;
       display:block;
       text-align:center;
+      flex-grow:1;
   
       ul {
+        display:inline-block;
         li {
           display:inline-block;
           margin-right: $unit-xs;

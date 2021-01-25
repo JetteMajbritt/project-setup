@@ -1,3 +1,4 @@
+const copyWebpackPlugin = require("copy-webpack-plugin");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
 const path = require("path");
 
@@ -51,7 +52,12 @@ module.exports = {
       template: "src/index.html",
       filename: "index.html",
     }),
+    new copyWebpackPlugin
+    ({patterns:
+      [{from:"src/images", to: "images"}]
+  })
   ],
+  
   devServer: {
     contentBase: path.join(__dirname, "dist"),
     compress: true,

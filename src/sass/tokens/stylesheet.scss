@@ -1,22 +1,28 @@
 f1 {
     font-family:"Raleway";
-    font-size:55pt;
+    font-size:36pt;
     font-style:semi bold;
 
 }
 
 f2 {
     font-family: "Raleway";
-    font-size: 36px;
+    font-size: 25px;
     font-style: medium;
     }
 
 text {
     font-family: "Raleway";
-    font-size: 28px
+    font-size: 18px
 }
 caption {
     font-family: "Raleway";
     font-weight: italic;
-    font-size: 16px;
+    font-size: 12px;
+}
+
+keyword {
+    font-family: "Raleway";
+    font-size:18px;
+    color:$color-keyword;
 }

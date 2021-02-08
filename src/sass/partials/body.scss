@@ -1,11 +1,11 @@
-.m-body {
-    text-align: middle;
-    position: relative;
-    margin-right: 10px;
-    padding:$unit-xs;
-
-}
 .m-body__bfoto{
-    position:right;
     text-align: right;
+    position: absolute;
+    display: inline-block;
+    
+}
+.m-body {
+    text-align: justify;
+    margin-right: 20px;
+    padding:$unit-xs;
 }

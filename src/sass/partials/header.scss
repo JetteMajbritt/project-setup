@@ -17,7 +17,7 @@
     
     .m-header__navigation {
       padding: $unit-xs;
-      display:block;
+      display:right;
       text-align:right;
       flex-grow:1;
   
@@ -25,7 +25,7 @@
         display:inline-block;
         li {
           display:inline-block;
-          margin-right: $unit-xs;
+          margin-right: px;
           
   
           a {

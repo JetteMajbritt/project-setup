@@ -30,18 +30,18 @@
   
           a {
             transition: all 0.5s;
-            color: $color-headlines;
+            color: $color-keyword;
             text-decoration: none;
   
             &:hover {
-              color: $color-keyword;
+              color: $color-headlines;
               text-decoration: underline;
             }
           }
   
           &.active {
             a {
-              color: $color-keyword;
+              color: $color-headlines;
               text-decoration: underline;
             }
           }

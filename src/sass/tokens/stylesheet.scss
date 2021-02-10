@@ -1,8 +1,9 @@
 f1 {
     font-family:"Raleway";
-    font-size:36pt;
+    font-size:55px;
     font-style:$font-h1;
     font-weight: bold;
+    
 
 }
 
@@ -10,13 +11,21 @@ f2 {
     font-family: "Raleway";
     font-size: 25px;
     font-style: $font-h2;
+    color: $color-headlines;
+    
     }
+
+f3{
+    font-family: "Raleway";
+    font-size: 25px;
+    font-style: $font-h2;
+    
+}
 
 text {
     font-family: "Raleway";
     font-size: 18px;
     font-style: $font-text;
-    width: 50%;
 }
 caption {
     font-family: "Raleway";

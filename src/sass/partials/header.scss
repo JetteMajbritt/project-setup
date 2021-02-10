@@ -4,14 +4,13 @@
     align-items: center;
     padding:$unit-xs;
     
+    
   
     .m-header__logo {
       position:right;
       padding: $unit-xs;
       text-align:right;
-      font-weight: bold;
       color: $color-headlines;
-      font-size:55px;
       
     }
     
@@ -20,6 +19,7 @@
       display:right;
       text-align:right;
       flex-grow:1;
+      display: inline-block;
   
       ul {
         display:inline-block;
@@ -30,11 +30,11 @@
   
           a {
             transition: all 0.5s;
-            color: $color-keyword;
+            color: $color-headlines;
             text-decoration: none;
   
             &:hover {
-              color: $color-headlines;
+              color: $color-keyword;
               text-decoration: underline;
             }
           }

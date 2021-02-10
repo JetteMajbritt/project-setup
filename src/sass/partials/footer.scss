@@ -1,0 +1,44 @@
+.m-footer {
+    position:relative;
+    display: flex;
+    align-items: center;
+    padding:$unit-xs;}
+    
+    
+    .m-footer__navigation {
+    padding: $unit-xs;
+    display:right;
+    text-align:center;
+    flex-grow:3;
+
+    ul {
+      display:inline-block;
+      li {
+        display:inline-block;
+        margin-right: 100px;
+        
+
+        a {
+          transition: all 0.5s;
+          color: $color-headlines;
+          text-decoration: none;
+
+          &:hover {
+            color: $color-keyword;
+            text-decoration: underline;
+          }
+        }
+
+        &.active {
+          a {
+            color: $color-headlines;
+            text-decoration: underline;
+          }
+        }
+      }
+    }
+
+    &.visible {
+      display: block;
+    }
+  }

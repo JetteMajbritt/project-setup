@@ -6,3 +6,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;0,500;0,600;1,400&display=swap');
 @import "./partials/header.scss";
 @import "./partials/body.scss";
+@import "./sass/partials/footer.scss";
